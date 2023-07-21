@@ -7,12 +7,17 @@ public class Prime {
 		int i,n,a,flg = 0;
 		System.out.println("enter the number ");
 		a=sc.nextInt();
-		if(a==0)
-			System.out.println("not defined");
+		if(a<=0||a==1)
+			System.out.println("it is not a prime number");
+		else
+			if(a==2||a==3) {
+				System.out.println("it is a prime number");
+			}
+
 		else
 		{
-		n=a/2;
-		for(i=2;i<=n;i++) {
+
+		for(i = 2; i * i <= a; i++) {
 			if(a%i==0) {
 				flg=0;
 			}
