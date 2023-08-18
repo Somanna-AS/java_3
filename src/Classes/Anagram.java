@@ -7,7 +7,7 @@ public class Anagram {
 		char tmp;
 		for(int i=0;i<a.length;i++) {
 			for(int j=i+1;j<=a.length;j++) {
-				if(a[j]<a[i]) {
+				if(a[j]<a[i ]) {
 					tmp=a[i];
 					a[i]=a[j];
 					a[j]=tmp;

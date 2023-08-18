@@ -11,8 +11,7 @@ public class Cntvoco {
 			else
 				c++;
 		}
-		char a='a',z='z',A='A',Z='Z';
-
+		System.out.println("vowels = "+v+"consonents ="+c);
 	}
 
 }
